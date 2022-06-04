@@ -29,9 +29,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-			<main className={styles.main}>
-				<h1>Bitzquad NextJS Template</h1>
-			</main>
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        </h1>
 
         <button onClick={() => dispatch(UserActions.GetAllUsers())}>Get All Users</button>
 
